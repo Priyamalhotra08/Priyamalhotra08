@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff2f92,50:ff85c8,100:c56cf0&height=220&section=header&text=Priya%20Malhotra&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Full%20Stack%20Developer%20%E2%80%A2%20MERN%20%E2%80%A2%20AI%20%26%20RAG&descSize=20&descAlignY=58&animation=twinkling" width="100%" alt="Priya Malhotra"/>
+<img src="header.svg" width="100%" alt="Priya Malhotra"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=800&color=FF4FA3&center=true&vCenter=true&width=650&lines=Hi+there!+I'm+Priya+%F0%9F%92%96;Full+Stack+Developer+(MERN);Building+AI+apps+with+RAG+%2B+OpenAI;Automating+workflows+with+n8n;Docker+%E2%80%A2+Kubernetes+%E2%80%A2+CI%2FCD" alt="Typing SVG"/>
 
@@ -86,8 +86,6 @@ Secure hospital app for VIP patients with OTP login, role-based access, real-tim
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Priyamalhotra08&show_icons=true&hide_border=true&bg_color=1a0618&title_color=ff4fa3&icon_color=ff85c8&text_color=ffd6ec&ring_color=ff4fa3" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyamalhotra08&layout=compact&hide_border=true&bg_color=1a0618&title_color=ff4fa3&text_color=ffd6ec" />
 
 <img src="https://streak-stats.demolab.com?user=Priyamalhotra08&hide_border=true&background=1A0618&ring=FF4FA3&fire=FF85C8&currStreakLabel=FF4FA3&sideLabels=FFD6EC&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=E9B6D3&stroke=5C1F4A" />
 
