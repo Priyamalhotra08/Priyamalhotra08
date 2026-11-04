@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" width="520" height="260">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b0a22"/><stop offset="1" stop-color="#1a0618"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff2f92"/><stop offset=".5" stop-color="#ff85c8"/><stop offset="1" stop-color="#c56cf0"/></linearGradient>
+  <linearGradient id="dress" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff8fd0"/><stop offset="1" stop-color="#ff2f92"/></linearGradient>
+  <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4a1838"/><stop offset=".6" stop-color="#2a0c20"/><stop offset="1" stop-color="#7a2a5c"/></linearGradient>
+  <radialGradient id="skin" cx=".45" cy=".4" r=".7"><stop offset="0" stop-color="#ffe6d8"/><stop offset="1" stop-color="#f7c5ae"/></radialGradient>
+  <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ff4fa3" stop-opacity=".45"/><stop offset="1" stop-color="#ff4fa3" stop-opacity="0"/></radialGradient>
+  <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff85c8"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#ff4fa3"/>
+    <animate attributeName="x1" values="-1;1" dur="4s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="4s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<style>
+  .float{animation:float 3.2s ease-in-out infinite;transform-origin:130px 200px}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  .wave{transform-origin:63px 71px;animation:wave 1.6s ease-in-out infinite}
+  @keyframes wave{0%,100%{transform:rotate(-150deg)}25%{transform:rotate(-115deg)}50%{transform:rotate(-150deg)}75%{transform:rotate(-115deg)}}
+  .eyes{transform-origin:50px 42px;animation:blink 4s infinite}
+  @keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.08)}}
+  .pupil{animation:look 6s ease-in-out infinite}
+  @keyframes look{0%,15%{transform:translate(0,0)}25%,40%{transform:translate(2.4px,-.6px)}50%,65%{transform:translate(-2.4px,.6px)}75%,90%{transform:translate(1px,1.6px)}100%{transform:translate(0,0)}}
+  .head{transform-origin:50px 62px;animation:tilt 6s ease-in-out infinite}
+  @keyframes tilt{0%,15%{transform:rotate(0)}25%,40%{transform:rotate(6deg)}50%,65%{transform:rotate(-6deg)}75%,100%{transform:rotate(0)}}
+  .legL{transform-origin:43.5px 108px;animation:dA 1.9s ease-in-out infinite}
+  .legR{transform-origin:56.5px 108px;animation:dB 1.9s ease-in-out infinite}
+  @keyframes dA{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(-30deg)}}
+  @keyframes dB{0%,100%{transform:rotate(-30deg)}50%{transform:rotate(-6deg)}}
+  .tw{animation:tw 2.4s ease-in-out infinite}
+  .tw:nth-child(2n){animation-delay:-.8s}.tw:nth-child(3n){animation-delay:-1.6s}
+  @keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+  .heart{animation:rise 3s ease-out infinite;opacity:0}
+  @keyframes rise{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-60px);opacity:0}}
+  .h2{animation-delay:1s}.h3{animation-delay:2s}
+  .bubble{animation:pop 4s ease-in-out infinite;transform-origin:250px 80px}
+  @keyframes pop{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+  text{font-family:'Segoe UI',Poppins,Helvetica,Arial,sans-serif}
+</style>
+
+<rect x="2" y="2" width="516" height="256" rx="26" fill="url(#bg)" stroke="url(#edge)" stroke-width="2"/>
+<g fill="#ff85c8">
+  <circle class="tw" cx="40" cy="40" r="2"/><circle class="tw" cx="480" cy="50" r="2.4"/><circle class="tw" cx="460" cy="220" r="1.8"/>
+  <circle class="tw" cx="230" cy="230" r="2"/><circle class="tw" cx="310" cy="30" r="1.6"/><circle class="tw" cx="70" cy="215" r="1.6"/>
+  <circle class="tw" cx="400" cy="150" r="1.4"/><circle class="tw" cx="200" cy="40" r="1.8"/>
+</g>
+<ellipse cx="130" cy="150" rx="110" ry="100" fill="url(#halo)"/>
+
+<!-- glowing seat -->
+<rect x="70" y="196" width="120" height="14" rx="7" fill="#ff4fa3" opacity=".9"/>
+<rect x="70" y="196" width="120" height="14" rx="7" fill="none" stroke="#ffd6ec" stroke-opacity=".6"/>
+
+<!-- Pixie (original character), sitting & waving -->
+<g class="float">
+ <g transform="translate(80 58) scale(1)">
+  <path d="M24 40 Q20 6 50 6 Q80 6 76 40 L80 86 Q70 94 64 82 L36 82 Q30 94 20 86 Z" fill="url(#hair)"/>
+  <g class="legL"><rect x="40" y="106" width="7" height="32" rx="3.5" fill="url(#skin)"/><ellipse cx="44" cy="140" rx="6.5" ry="3.8" fill="#ff2f92"/></g>
+  <g class="legR"><rect x="53" y="106" width="7" height="32" rx="3.5" fill="url(#skin)"/><ellipse cx="57" cy="140" rx="6.5" ry="3.8" fill="#ff2f92"/></g>
+  <g transform="rotate(28 37 71)"><rect x="33.5" y="69" width="6.5" height="28" rx="3.2" fill="url(#skin)"/><circle cx="36.8" cy="98" r="3.8" fill="url(#skin)"/></g>
+  <rect x="46" y="58" width="8" height="10" rx="3" fill="#f7c5ae"/>
+  <path d="M38 67 Q50 61 62 67 L73 112 Q50 121 27 112 Z" fill="url(#dress)"/>
+  <path d="M37 82 Q50 86 63 82" stroke="#fff" stroke-width="2.2" fill="none" opacity=".85"/>
+  <circle cx="50" cy="84.5" r="2.6" fill="#fff"/>
+  <circle cx="40" cy="100" r="1.1" fill="#fff" opacity=".8"/><circle cx="58" cy="96" r="1.1" fill="#fff" opacity=".8"/><circle cx="50" cy="106" r="1.1" fill="#fff" opacity=".8"/>
+  <g class="wave"><rect x="60" y="69" width="6.5" height="28" rx="3.2" fill="url(#skin)"/><circle cx="63.2" cy="98" r="3.8" fill="url(#skin)"/></g>
+  <g class="head">
+    <ellipse cx="50" cy="40" rx="22" ry="23.5" fill="url(#skin)"/>
+    <path d="M27 36 Q30 12 50 12 Q72 12 74 36 Q66 24 56 26 Q51 19 44 28 Q35 24 27 36Z" fill="url(#hair)"/>
+    <g class="eyes">
+      <ellipse cx="41" cy="42" rx="5" ry="6" fill="#fff"/><ellipse cx="59" cy="42" rx="5" ry="6" fill="#fff"/>
+      <g class="pupil"><circle cx="41" cy="43" r="3.5" fill="#3a1530"/><circle cx="42.3" cy="41.4" r="1.3" fill="#fff"/><circle cx="59" cy="43" r="3.5" fill="#3a1530"/><circle cx="60.3" cy="41.4" r="1.3" fill="#fff"/></g>
+      <path d="M35.5 37 Q41 33 46.5 36.5 M53.5 36.5 Q59 33 64.5 37" stroke="#2a0c20" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    </g>
+    <ellipse cx="34.5" cy="50" rx="4.2" ry="2.5" fill="#ff7fb0" opacity=".55"/><ellipse cx="65.5" cy="50" rx="4.2" ry="2.5" fill="#ff7fb0" opacity=".55"/>
+    <path d="M45.5 52.5 Q50 57 54.5 52.5" stroke="#d81b70" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <g transform="translate(68 15) rotate(18)"><path d="M0 0 L-11 -7 L-11 7 Z" fill="#ff4fa3"/><path d="M0 0 L11 -7 L11 7 Z" fill="#ff4fa3"/><circle r="3.4" fill="#ff85c8"/></g>
+  </g>
+ </g>
+</g>
+<g fill="#ff4fa3" font-size="16"><text class="heart" x="190" y="110">♥</text><text class="heart h2" x="60" y="120">♥</text><text class="heart h3" x="175" y="70">✦</text></g>
+
+<!-- speech bubble -->
+<g class="bubble">
+  <rect x="232" y="52" width="262" height="112" rx="20" fill="#ffffff" fill-opacity=".07" stroke="url(#edge)" stroke-width="1.5"/>
+  <path d="M232 120 L214 132 L236 108 Z" fill="#ff4fa3" fill-opacity=".5"/>
+  <text x="252" y="88" font-size="22" font-weight="800" fill="url(#txt)">Hi! I'm Pixie ✨</text>
+  <text x="252" y="114" font-size="13.5" fill="#ffd6ec">Welcome to Priya's GitHub!</text>
+  <text x="252" y="136" font-size="13.5" fill="#ffd6ec">Scroll down to explore her</text>
+  <text x="252" y="154" font-size="13.5" fill="#ff85c8" font-weight="700">code, stats &amp; projects ↓</text>
+</g>
+</svg>
