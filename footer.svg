@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120" role="img" aria-label="Thanks for visiting">
+<defs>
+  <linearGradient id="pf-bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#10070C"/><stop offset=".5" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
+  <linearGradient id="pf-line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#451126" stop-opacity="0"/><stop offset=".5" stop-color="#C77B9B"/><stop offset="1" stop-color="#451126" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="1000" height="120" rx="20" fill="url(#pf-bg)"/>
+<path d="M0 78 Q125 58 250 78 T500 78 T750 78 T1000 78" fill="none" stroke="#701A3D" stroke-width="1.5">
+  <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0 78 Q125 58 250 78 T500 78 T750 78 T1000 78;M0 78 Q125 98 250 78 T500 78 T750 78 T1000 78;M0 78 Q125 58 250 78 T500 78 T750 78 T1000 78"/>
+</path>
+<path d="M0 88 Q125 108 250 88 T500 88 T750 88 T1000 88" fill="none" stroke="#451126" stroke-width="1.2">
+  <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M0 88 Q125 108 250 88 T500 88 T750 88 T1000 88;M0 88 Q125 68 250 88 T500 88 T750 88 T1000 88;M0 88 Q125 108 250 88 T500 88 T750 88 T1000 88"/>
+</path>
+<rect x="400" y="62" width="200" height="1.5" fill="url(#pf-line)"/>
+<text x="500" y="46" text-anchor="middle" font-family="'Segoe UI',Poppins,Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#F8F0F3">Thanks for visiting — let's build something together</text>
+<circle cx="500" cy="63" r="3" fill="#E5B5C7"><animate attributeName="cx" values="400;600;400" dur="6s" repeatCount="indefinite"/></circle>
+</svg>

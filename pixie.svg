@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" width="520" height="260">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b0a22"/><stop offset="1" stop-color="#1a0618"/></linearGradient>
-  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff2f92"/><stop offset=".5" stop-color="#ff85c8"/><stop offset="1" stop-color="#c56cf0"/></linearGradient>
-  <linearGradient id="dress" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff8fd0"/><stop offset="1" stop-color="#ff2f92"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#701A3D"/><stop offset=".5" stop-color="#C77B9B"/><stop offset="1" stop-color="#701A3D"/></linearGradient>
+  <linearGradient id="dress" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E5B5C7"/><stop offset="1" stop-color="#b0406e"/></linearGradient>
   <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4a1838"/><stop offset=".6" stop-color="#2a0c20"/><stop offset="1" stop-color="#7a2a5c"/></linearGradient>
   <radialGradient id="skin" cx=".45" cy=".4" r=".7"><stop offset="0" stop-color="#ffe6d8"/><stop offset="1" stop-color="#f7c5ae"/></radialGradient>
-  <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ff4fa3" stop-opacity=".45"/><stop offset="1" stop-color="#ff4fa3" stop-opacity="0"/></radialGradient>
-  <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff85c8"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#ff4fa3"/>
+  <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#C77B9B" stop-opacity=".45"/><stop offset="1" stop-color="#C77B9B" stop-opacity="0"/></radialGradient>
+  <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E5B5C7"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#C77B9B"/>
     <animate attributeName="x1" values="-1;1" dur="4s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="4s" repeatCount="indefinite"/></linearGradient>
 </defs>
 <style>
@@ -36,7 +36,7 @@
 </style>
 
 <rect x="2" y="2" width="516" height="256" rx="26" fill="url(#bg)" stroke="url(#edge)" stroke-width="2"/>
-<g fill="#ff85c8">
+<g fill="#E5B5C7">
   <circle class="tw" cx="40" cy="40" r="2"/><circle class="tw" cx="480" cy="50" r="2.4"/><circle class="tw" cx="460" cy="220" r="1.8"/>
   <circle class="tw" cx="230" cy="230" r="2"/><circle class="tw" cx="310" cy="30" r="1.6"/><circle class="tw" cx="70" cy="215" r="1.6"/>
   <circle class="tw" cx="400" cy="150" r="1.4"/><circle class="tw" cx="200" cy="40" r="1.8"/>
@@ -44,8 +44,8 @@
 <ellipse cx="130" cy="150" rx="110" ry="100" fill="url(#halo)"/>
 
 <!-- glowing seat -->
-<rect x="70" y="196" width="120" height="14" rx="7" fill="#ff4fa3" opacity=".9"/>
-<rect x="70" y="196" width="120" height="14" rx="7" fill="none" stroke="#ffd6ec" stroke-opacity=".6"/>
+<rect x="70" y="196" width="120" height="14" rx="7" fill="#C77B9B" opacity=".9"/>
+<rect x="70" y="196" width="120" height="14" rx="7" fill="none" stroke="#F8F0F3" stroke-opacity=".6"/>
 
 <!-- Pixie (original character), sitting & waving -->
 <g class="float">
@@ -70,19 +70,19 @@
     </g>
     <ellipse cx="34.5" cy="50" rx="4.2" ry="2.5" fill="#ff7fb0" opacity=".55"/><ellipse cx="65.5" cy="50" rx="4.2" ry="2.5" fill="#ff7fb0" opacity=".55"/>
     <path d="M45.5 52.5 Q50 57 54.5 52.5" stroke="#d81b70" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <g transform="translate(68 15) rotate(18)"><path d="M0 0 L-11 -7 L-11 7 Z" fill="#ff4fa3"/><path d="M0 0 L11 -7 L11 7 Z" fill="#ff4fa3"/><circle r="3.4" fill="#ff85c8"/></g>
+    <g transform="translate(68 15) rotate(18)"><path d="M0 0 L-11 -7 L-11 7 Z" fill="#C77B9B"/><path d="M0 0 L11 -7 L11 7 Z" fill="#C77B9B"/><circle r="3.4" fill="#E5B5C7"/></g>
   </g>
  </g>
 </g>
-<g fill="#ff4fa3" font-size="16"><text class="heart" x="190" y="110">♥</text><text class="heart h2" x="60" y="120">♥</text><text class="heart h3" x="175" y="70">✦</text></g>
+<g fill="#C77B9B" font-size="16"><text class="heart" x="190" y="110">♥</text><text class="heart h2" x="60" y="120">♥</text><text class="heart h3" x="175" y="70">✦</text></g>
 
 <!-- speech bubble -->
 <g class="bubble">
   <rect x="232" y="52" width="262" height="112" rx="20" fill="#ffffff" fill-opacity=".07" stroke="url(#edge)" stroke-width="1.5"/>
-  <path d="M232 120 L214 132 L236 108 Z" fill="#ff4fa3" fill-opacity=".5"/>
+  <path d="M232 120 L214 132 L236 108 Z" fill="#C77B9B" fill-opacity=".5"/>
   <text x="252" y="88" font-size="22" font-weight="800" fill="url(#txt)">Hi! I'm Pixie ✨</text>
-  <text x="252" y="114" font-size="13.5" fill="#ffd6ec">Welcome to Priya's GitHub!</text>
-  <text x="252" y="136" font-size="13.5" fill="#ffd6ec">Scroll down to explore her</text>
-  <text x="252" y="154" font-size="13.5" fill="#ff85c8" font-weight="700">code, stats &amp; projects ↓</text>
+  <text x="252" y="114" font-size="13.5" fill="#F8F0F3">Welcome to Priya's GitHub!</text>
+  <text x="252" y="136" font-size="13.5" fill="#F8F0F3">Scroll down to explore her</text>
+  <text x="252" y="154" font-size="13.5" fill="#E5B5C7" font-weight="700">code, stats &amp; projects ↓</text>
 </g>
 </svg>
